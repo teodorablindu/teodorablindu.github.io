@@ -1,13 +1,19 @@
 body {
 	color: black;
-	background: #fleee5;
-	font-family: Helvetica;
+	background: #f1eee5;
+	font-family: Helvetica, arial, sans-serif;
 	text-align: center;
+}
+div {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
 }
 h1 {
 	font-size: 18px;
 	font-weight: normal;
 }
 p {
-	text-transform: upercase;
+	text-transform: uppercase;
 }

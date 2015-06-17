@@ -1,0 +1,13 @@
+body {
+	color: black;
+	background: #fleee5;
+	font-family: Helvetica;
+	text-align: center;
+}
+h1 {
+	font-size: 18px;
+	font-weight: normal;
+}
+p {
+	text-transform: upercase;
+}

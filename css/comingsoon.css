@@ -5,6 +5,9 @@ body {
 	font-family: Helvetica;
 	text-align: center;
 }
+a {
+	color: #;
+}
 div {
 	position:absolute;
 	top:50%;
@@ -17,6 +20,7 @@ h1 {
 }
 p {
 	text-transform: uppercase;
+	font-weight: bold;
 }
 img {
 	width: 250px;

@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Open Sans', arial, verdana, serif;
 	font-weight: nomal;
@@ -31,4 +31,8 @@ visibility: hidden;
 display: block;
 height: 0;
 clear: both;
+}
+
+img {
+	width:20%;
 }

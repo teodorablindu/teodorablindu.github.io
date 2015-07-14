@@ -1,9 +1,9 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Open Sans', arial, verdana, serif;
 	font-weight: nomal;
 	line-height: 1.7em
-
-	}
+}
 
 nav {
 	background-color: #aaaaaa;
@@ -25,24 +25,23 @@ h2 {
 	font-size: 2em;
   	font-weight: bold;
   	text-transform: uppercase;
-  	line-height: .25;
 }
 
 .top {
 	text-align: center;
 
-	}
+}
 
 .gallery img {
 	float:left;
 	width: 33.33%;
 	display: inline-block;
-	}
+}
 
 .clearfix:after { 
-content: ".";
-visibility: hidden; 
-display: block;
-height: 0;
-clear: both;
+	content: ".";
+	visibility: hidden; 
+	display: block;
+	height: 0;
+	clear: both;
 }

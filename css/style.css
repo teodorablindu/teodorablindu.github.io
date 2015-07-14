@@ -9,14 +9,11 @@ body {
 
 logo {
 	border-bottom: 1px solid black;
+	float; left;
 }
 
 nav {
 	float; right;
-}
-
-logo {
-	float: left;
 }
 
 a {

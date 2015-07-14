@@ -12,8 +12,13 @@ logo {
 }
 
 nav {
-	text-align: right;
+	float; right;
 }
+
+logo {
+	float: left;
+}
+
 a {
 	text-decoration: none;
 	color: black;

@@ -1,0 +1,49 @@
+body {
+	font-family: 'Open Sans', arial, verdana, serif;
+	font-weight: nomal;
+	line-height: 1.7em
+
+	}
+
+nav {
+	background-color: #aaaaaa;
+	font-family: Arial, sans-serif;
+	float: left;
+}
+
+a {
+	background-color: yellow
+	color: black
+	display: block;
+}
+
+h1 {
+  	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2em;
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	line-height: .25;
+}
+
+.top {
+	text-align: center;
+
+	}
+
+.gallery {
+	float:left;
+	padding:50px;
+	width: 50%;
+	margin: 60px 13px;
+	}
+
+.clearfix:after { 
+content: ".";
+visibility: hidden; 
+display: block;
+height: 0;
+clear: both;
+}

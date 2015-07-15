@@ -7,13 +7,28 @@ body {
 	font-size: 20px;
 }
 
-logo {
+header {
+	width: 70%;
+	margin: auto;
+}
+
+.intro {
+	font: "open sans", sans serif;
+	font-size: 17px; 
+	float: left;
+	padding-top: 70px;
+	padding-right: 30%;
 	border-bottom: 1px solid black;
-	float; left;
+	line-height: 160%;
 }
 
 nav {
-	float; right;
+	float: right;
+	padding: 10px;
+	font: "open sans", sans serif;
+	font-size: 13px; 
+	text-transform: uppercase; 
+	background-color: yellow;
 }
 
 a {
@@ -23,6 +38,10 @@ a {
 
 a:hover {
 	background-color: yellow;
+}
+
+latest post {
+	text text-align: center;
 }
 
 h1 {

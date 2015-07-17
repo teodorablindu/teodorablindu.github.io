@@ -15,38 +15,51 @@ header {
 .intro {
 	font: "open sans", sans serif;
 	font-size: 17px; 
-	float: left;
 	padding-top: 70px;
 	padding-right: 30%;
 	border-bottom: 1px solid black;
-	line-height: 160%;
+	line-height: 150%;
 }
 
 nav {
-	float: right;
 	padding: 10px;
 	font: "open sans", sans serif;
 	font-size: 13px; 
 	text-transform: uppercase; 
 	background-color: yellow;
+	text-align: right;
+	width: 100%;
+	text-decoration: none;
+	padding-top: 20px;
 }
 
 a {
 	text-decoration: none;
 	color: black;
+	margin: 10px;
 }
 
 a:hover {
 	background-color: yellow;
 }
 
-latest post {
-	text text-align: center;
+.latestPost {
+	margin: auto;
+	width: 615px;
 }
 
 h1 {
 	font-weight: bold;
 	font-size: 1.5em
+}
+
+p {
+
+
+}
+
+header h2 {
+
 }
 
 h2 {
@@ -60,7 +73,9 @@ h3{
 .images img {
 	float:left;
 	width:20%;
+	padding: 2px;
 }
+
 .clearfix:after { 
 	content: ".";
 	visibility: hidden; 

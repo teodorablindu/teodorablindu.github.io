@@ -3,7 +3,7 @@
 body {
 	font-family: 'Open Sans', arial, verdana, serif;
 	font-weight: normal;
-	line-height: 1.7em;
+	line-height: 1.5em;
 	font-size: 20px;
 }
 
@@ -22,7 +22,7 @@ header {
 }
 
 nav {
-	padding: 10px;
+	padding: 1em 1em 0 0;
 	font: "open sans", sans serif;
 	font-size: 13px; 
 	text-transform: uppercase; 
@@ -30,7 +30,6 @@ nav {
 	text-align: right;
 	width: 100%;
 	text-decoration: none;
-	padding-top: 20px;
 }
 
 a {
@@ -40,7 +39,7 @@ a {
 }
 
 a:hover {
-	background-color: yellow;
+	font-weight: bold;
 }
 
 .latestPost {
@@ -48,14 +47,19 @@ a:hover {
 	width: 615px;
 }
 
+img { 
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
 h1 {
 	font-weight: bold;
-	font-size: 1.5em
+	font-size: 1em;
+	text-align: center;
 }
 
 p {
-
-
+	
 }
 
 header h2 {
@@ -64,12 +68,9 @@ header h2 {
 
 h2 {
 	font-size: 1em;
+	padding-top: 1.5em;
 }
 
-h3{
-	font-weight: normal;
-	font-size: 1em;
-}
 .images img {
 	float:left;
 	width:20%;
@@ -82,4 +83,11 @@ h3{
 	display: block;
 	height: 0;
 	clear: both;
+}
+
+@media only screen and (max-width: 800px) {
+	nav {
+    float: none;
+	}
+
 }

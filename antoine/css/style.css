@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: 'Open Sans', arial, verdana, serif;
+	font-weight: normal;
+	line-height: 2em;
+	font-size: 20px;
+	text-align: center;
+}
+
+header {
+	width: 70%;
+	margin: auto;
+}
+
+.intro {
+	font: "open sans", sans serif;
+	font-size: 17px; 
+	padding-top: 70px;
+	padding-right: 30%;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	line-height: 250%;
+	padding-top: 3em;
+}
+
+img { 
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+
+h2 {
+	font-size: 1em;
+	padding-top: 3em;
+}
+
+.images img {
+	float:left;
+	width:20%;
+	padding: 2px;
+}
+
+footer {
+	padding-top: 2em;
+}
+
+.clearfix:after { 
+	content: ".";
+	visibility: hidden; 
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+@media only screen and (max-width: 800px) {
+	nav {
+    float: none;
+	}
+}

@@ -1,27 +1,41 @@
 body {
-	color: black;
-	background: #f1eee5;
 	font-family: Helvetica, arial, sans-serif;
 	font-family: Helvetica;
 	text-align: center;
 }
+
 a {
-	color: #;
+	text-decoration: none;
+	color: black;
 }
+
+a:hover {
+	background-color: yellow;
+}
+
 div {
 	position:absolute;
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
 }
+
 h1 {
-	font-size: 18px;
+	font-size: 28px;
 	font-weight: normal;
+	line-height: 1.5em;
+	color: #303030;
+
 }
-p {
+
+h2 {
+	font-size: 28px;
 	text-transform: uppercase;
-	font-weight: bold;
+	color: #303030;
 }
-img {
-	width: 250px;
+
+p {
+	font-weight: bold;
+	font-size: 20px;
+	color: #303030;
 }
